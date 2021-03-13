@@ -12,9 +12,9 @@ var gameState = PLAY;
 var distance=0;
 
 function preload(){
-  pathImg = loadImage("images/Road.png");
-  mainRacerImg1=loadAnimation("images/mainPlayer1.png","images/mainPlayer2.png");
-  mainRacerImg2= loadAnimation("images/mainPlayer3.png");
+  pathImg = loadImage("Road.png");
+  mainRacerImg1=loadAnimation("mainPlayer1.png","mainPlayer2.png");
+  mainRacerImg2= loadAnimation("mainPlayer3.png");
 
   pink1 = loadAnimation("opponent1.png","opponent2.png");
   pink2= loadAnimation("opponent3.png");
